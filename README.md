@@ -20,3 +20,7 @@ This project demonstrates the deployment of a static website using Jenkins, Dock
    ```bash
    docker build -t my-static-website .
    docker run -itd --name my-website-container -p 8081:80 my-static-website
+
+
+   ![Project Overview](./screenshot.png)
+
